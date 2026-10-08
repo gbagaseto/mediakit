@@ -1,0 +1,18 @@
+name: Publicar no Netlify
+
+on:
+  schedule:
+    - cron: "30 9 * * 1" # toda segunda às 6h30 (Brasília), logo depois da atualização
+  push:
+    paths: ["site/**"] # quando você edita o site
+  workflow_dispatch: # botão "Run workflow" para publicar na hora
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enviar site para o Netlify
+        env:
+          NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+        run: python3 scripts/publicar_netlify.py
