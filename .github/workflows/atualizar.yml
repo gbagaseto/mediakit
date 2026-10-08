@@ -1,0 +1,48 @@
+name: Atualizar métricas
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # todo dia às 6h (horário de Brasília)
+  workflow_dispatch: # botão "Run workflow" para atualizar na hora
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Buscar números do TikTok e do Instagram
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          NOVO_TOKEN_ARQUIVO: ${{ runner.temp }}/novo_ig_token
+        run: python3 scripts/atualizar.py
+
+      - name: Guardar o token renovado do Instagram
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          arquivo="${{ runner.temp }}/novo_ig_token"
+          if [ -s "$arquivo" ] && [ -n "$GH_TOKEN" ]; then
+            gh secret set IG_TOKEN --repo "$GITHUB_REPOSITORY" < "$arquivo"
+            echo "Token do Instagram renovado."
+          fi
+
+      - name: Salvar dados.json
+        run: |
+          git config user.name "robô do media kit"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados.json
+          git diff --cached --quiet || git commit -m "métricas de $(date -u +%F)"
+          git push
+
+      - name: Avisar se algo falhou
+        run: |
+          python3 -c "
+          import json, sys
+          erros = json.load(open('dados.json'))['erros']
+          for e in erros: print('::warning::' + e)
+          sys.exit(1 if erros else 0)
+          "
