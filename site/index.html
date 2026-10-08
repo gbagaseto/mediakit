@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabi Bagaseto · Mídia Kit</title>
+<meta name="description" content="Mídia kit de Gabi Bagaseto (@gbagaseto): creator de pilates, autocuidado e reviews de lugares em João Pessoa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Corinthia:wght@700&family=Courier+Prime:wght@400;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --papel:#EAE5D9;      /* creme do cartão */
+  --mesa:#D9D4C9;       /* fundo texturizado */
+  --rosa:#FDBDD8;
+  --rosa-forte:#F28DB8;
+  --azul:#B9D8FB;
+  --azul-linha:rgba(90,130,190,.22);
+  --verde:#A4B45B;
+  --tinta:#373538;
+  --tinta-suave:#6E6A66;
+  --branco:#FFFDF8;
+  --ruido:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;color:var(--tinta);background:var(--mesa) var(--ruido);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit}
+
+/* ── tipografia da apresentação ── */
+.display{font-family:'Instrument Serif',serif;font-weight:400;text-transform:uppercase;line-height:.86;letter-spacing:-.01em;color:var(--tinta)}
+.script{font-family:'Corinthia',cursive;font-weight:700;color:var(--rosa);-webkit-text-stroke:2px var(--tinta);paint-order:stroke fill;line-height:1;display:block;text-transform:none;letter-spacing:0}
+.maquina{font-family:'Courier Prime',monospace;letter-spacing:.06em}
+.pill{display:inline-block;font-family:'Courier Prime',monospace;font-size:13px;letter-spacing:.08em;text-transform:uppercase;background:var(--branco);border:1.5px solid var(--tinta);border-radius:100px;padding:6px 14px;text-decoration:none;white-space:nowrap;color:var(--tinta)}
+.pill.rosa{background:var(--rosa)}
+.pill.azul{background:var(--azul)}
+.pill.verde{background:var(--verde);color:var(--branco);border-color:var(--verde)}
+a.pill{transition:transform .2s}
+a.pill:hover{transform:translateY(-2px) rotate(-1deg)}
+
+/* selo verde redondo com texto girando */
+.selo{width:112px;height:112px;border-radius:50%;background:var(--verde);display:grid;place-items:center;position:absolute;box-shadow:2px 3px 0 rgba(0,0,0,.12)}
+.selo svg{width:100%;height:100%;animation:girar 22s linear infinite}
+.selo span{position:absolute;font-size:22px;color:var(--branco)}
+@keyframes girar{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.selo svg,.letreiro-faixa{animation:none!important}}
+
+/* foto recortada como adesivo */
+.adesivo{background:var(--branco);padding:8px;box-shadow:3px 6px 18px rgba(0,0,0,.18);border-radius:6px;position:relative}
+.adesivo img{width:100%;height:100%;object-fit:cover;border-radius:3px}
+.adesivo .fita{position:absolute;width:86px;height:22px;top:-11px;left:50%;transform:translateX(-50%) rotate(-3deg);background:rgba(253,189,216,.75);z-index:2}
+.adesivo .fita.azul{background:rgba(185,216,251,.8)}
+.adesivo .fita.verde{background:rgba(164,180,91,.6)}
+
+/* cartão de papel creme */
+.cartao{background:var(--papel) var(--ruido);border-radius:4px;box-shadow:0 18px 40px rgba(55,53,56,.16);position:relative}
+
+/* papel quadriculado azul */
+.quadriculado{background-color:var(--azul);background-image:linear-gradient(var(--azul-linha) 1px,transparent 1px),linear-gradient(90deg,var(--azul-linha) 1px,transparent 1px),var(--ruido);background-size:22px 22px,22px 22px,auto}
+
+.wrap{max-width:1180px;margin:0 auto;padding:0 32px}
+section{padding:110px 0;position:relative}
+.titulo{font-size:clamp(56px,9vw,124px);margin-bottom:28px}
+.titulo .script{font-size:.8em;margin-bottom:-.18em;margin-left:.1em;transform:rotate(-4deg);transform-origin:left}
+.intro{max-width:560px;font-size:17px;line-height:1.7;color:var(--tinta-suave)}
+
+/* ── letreiro ✦ gbagaseto ✦ ── */
+.letreiro{background:var(--tinta);color:var(--papel);overflow:hidden;white-space:nowrap;padding:12px 0;font-family:'Courier Prime',monospace;font-size:15px;letter-spacing:.2em;text-transform:uppercase}
+.letreiro-faixa{display:inline-block;animation:letreiro 38s linear infinite}
+@keyframes letreiro{to{transform:translateX(-50%)}}
+
+/* ── HERO ── */
+.hero{min-height:100vh;display:grid;place-items:center;padding:90px 0 110px}
+.hero-mesa{position:relative;width:min(1000px,100%);margin:0 auto}
+.hero-fundo{position:absolute;inset:-18px 30px 30px -22px;background:var(--rosa);border-radius:4px;transform:rotate(-3deg)}
+.hero-cartao{padding:70px 64px 64px;display:grid;grid-template-columns:1.35fr 1fr;gap:28px;align-items:center;transform:rotate(1deg)}
+.hero-nome{font-size:clamp(72px,11vw,150px)}
+.hero-nome .script{font-size:.68em;margin-bottom:-.12em;transform:rotate(-5deg)}
+.hero-tag{margin:26px 0 12px;font-size:17px;line-height:1.6;max-width:430px}
+.hero-pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.hero-foto{aspect-ratio:3/4;transform:rotate(4deg);max-width:340px;justify-self:center;width:100%}
+.hero-foto img{object-position:center 20%}
+.hero .selo{left:-46px;bottom:-30px}
+.hero-local{position:absolute;right:24px;top:-16px;transform:rotate(3deg)}
+
+/* ── NÚMEROS DO TOPO ── */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:18px;margin-top:-60px;position:relative;z-index:3}
+.stat{padding:26px 22px 22px;text-align:center}
+.stat:nth-child(odd){transform:rotate(-1.2deg)}
+.stat:nth-child(even){transform:rotate(1deg)}
+.stat-num{font-family:'Instrument Serif',serif;font-size:58px;line-height:1;display:block}
+.stat-num small{font-size:.5em;margin-left:2px}
+.stat-label{display:block;margin-top:8px;font-family:'Courier Prime',monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--tinta-suave)}
+.stat-extra{display:block;margin-top:6px;font-size:11px;color:var(--tinta-suave);font-style:italic}
+
+/* ── PARCERIAS ── */
+.marcas{padding:56px 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:12px;justify-content:center}
+.marcas .maquina{font-size:12px;text-transform:uppercase;color:var(--tinta-suave);margin-right:6px}
+.marca{font-family:'Instrument Serif',serif;font-size:26px;padding:4px 18px;border-bottom:2px solid var(--tinta)}
+
+/* ── CASES ── */
+.cases-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:56px;align-items:start}
+.case{padding:34px 28px 30px}
+.case:nth-child(1){transform:rotate(-1deg)}
+.case:nth-child(2){transform:rotate(.8deg);margin-top:40px}
+.case:nth-child(3){transform:rotate(-.6deg)}
+.case-topo{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:18px}
+.case-marca{font-size:52px;line-height:.9}
+.case-tipo{font-size:11px;padding:4px 10px}
+.case-desc{font-size:15px;line-height:1.6;color:var(--tinta-suave);margin-bottom:22px}
+.case-entregas{list-style:none;display:flex;flex-direction:column;gap:6px;margin-bottom:22px}
+.case-entregas li{font-family:'Courier Prime',monospace;font-size:13px}
+.case-entregas li::before{content:'✦ ';color:var(--rosa-forte)}
+.case-nums{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:22px}
+.case-num{background:var(--branco);border:1.5px solid var(--tinta);border-radius:10px;padding:12px 14px}
+.case-num b{font-family:'Instrument Serif',serif;font-weight:400;font-size:32px;line-height:1;display:block}
+.case-num span{font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--tinta-suave)}
+.case-foto{aspect-ratio:4/5;margin:0 0 22px;transform:rotate(2deg)}
+.case-foto img{object-position:center 15%}
+.case-link{font-family:'Courier Prime',monospace;font-size:13px;text-transform:uppercase;letter-spacing:.08em}
+
+/* ── SOBRE + PÚBLICO ── */
+.sobre{display:grid;grid-template-columns:1fr 1.1fr;gap:70px;align-items:center}
+.sobre-fotos{position:relative;height:540px}
+.sobre-fotos .adesivo{position:absolute;width:230px;aspect-ratio:3/4}
+.sobre-fotos .a1{left:0;top:10px;transform:rotate(-5deg)}
+.sobre-fotos .a2{left:170px;top:70px;transform:rotate(4deg);z-index:2}
+.sobre-fotos .a3{left:60px;top:270px;transform:rotate(-2deg);z-index:3}
+.sobre-fotos .selo{right:10px;bottom:20px;z-index:4}
+.sobre-txt p{font-size:17px;line-height:1.75;margin-bottom:18px}
+.sobre-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.publico{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:80px}
+.pub{padding:26px 22px}
+.pub h4{font-family:'Courier Prime',monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--tinta-suave);font-weight:400;margin-bottom:10px}
+.pub-big{font-family:'Instrument Serif',serif;font-size:56px;line-height:1}
+.pub-sub{font-size:14px;color:var(--tinta-suave);margin-bottom:14px}
+.barra{display:grid;grid-template-columns:86px 1fr 40px;align-items:center;gap:8px;font-size:12px;margin-top:7px}
+.barra i{display:block;height:8px;background:var(--branco);border:1px solid var(--tinta);border-radius:10px;overflow:hidden}
+.barra i::after{content:'';display:block;height:100%;width:var(--v);background:var(--rosa-forte)}
+.barra b{text-align:right;font-weight:500}
+.fonte{margin-top:18px;font-family:'Courier Prime',monospace;font-size:12px;color:var(--tinta-suave)}
+
+/* ── EM NÚMEROS (automático) ── */
+.numeros{background:var(--tinta) var(--ruido);color:var(--papel)}
+.numeros .display{color:var(--papel)}
+.plataforma{display:flex;align-items:center;gap:12px;margin:46px 0 16px;font-family:'Courier Prime',monospace;font-size:14px;letter-spacing:.14em;text-transform:uppercase}
+.num-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.num-card{border:1.5px solid rgba(234,229,217,.25);border-radius:14px;padding:28px 26px}
+.num-valor{font-family:'Instrument Serif',serif;font-size:72px;line-height:1;display:block}
+.num-valor span{color:var(--rosa)}
+.num-desc{font-family:'Courier Prime',monospace;font-size:13px;color:rgba(234,229,217,.6);margin-top:6px;display:block}
+.num-cresc{display:inline-block;margin-top:14px;font-size:12px;font-weight:700;color:var(--tinta);background:var(--verde);padding:4px 10px;border-radius:100px}
+.atualizado{display:inline-flex;align-items:center;gap:10px;margin-top:40px;font-family:'Courier Prime',monospace;font-size:12px;color:rgba(234,229,217,.6)}
+.atualizado::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--verde);box-shadow:0 0 0 4px rgba(164,180,91,.25)}
+
+/* ── O QUE EU CRIO ── */
+.pilares{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:56px}
+.pilar .adesivo{aspect-ratio:3/4;margin-bottom:18px}
+.pilar:nth-child(odd) .adesivo{transform:rotate(-2.5deg)}
+.pilar:nth-child(even) .adesivo{transform:rotate(2deg)}
+.pilar h3{font-family:'Instrument Serif',serif;font-weight:400;font-size:30px;line-height:1;text-transform:uppercase;margin-bottom:8px}
+.pilar p{font-size:14px;line-height:1.55;color:var(--tinta-suave)}
+.pilar .pill{font-size:10px;padding:3px 9px;margin-bottom:10px}
+
+/* ── VÍDEOS ── */
+.videos{display:grid;grid-template-columns:repeat(6,1fr);gap:16px;margin-top:56px}
+.video{text-decoration:none;display:block;transition:transform .25s}
+.video .adesivo{aspect-ratio:9/16;padding:6px}
+.video:nth-child(odd){transform:rotate(-2deg)}
+.video:nth-child(even){transform:rotate(2deg) translateY(18px)}
+.video:hover{transform:rotate(0) scale(1.05)}
+.video-views{position:absolute;left:14px;bottom:14px;z-index:2;font-size:12px;padding:3px 10px}
+.video-nome{font-family:'Courier Prime',monospace;font-size:12px;text-align:center;margin-top:12px}
+
+/* ── PACOTES ── */
+.pacotes{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:56px}
+.pacote{padding:36px 30px}
+.pacote.destaque{background-color:var(--rosa)}
+.pacote h3{font-size:54px;margin:14px 0 10px}
+.pacote p{font-size:15px;line-height:1.55;color:var(--tinta-suave);margin-bottom:18px}
+.pacote.destaque p{color:var(--tinta)}
+.pacote ul{list-style:none;display:flex;flex-direction:column;gap:7px;margin-bottom:22px}
+.pacote li{font-family:'Courier Prime',monospace;font-size:14px}
+.pacote li::before{content:'✦ '}
+.formatos{display:flex;flex-wrap:wrap;gap:10px;margin-top:40px;justify-content:center}
+
+/* ── CONTATO ── */
+.contato{text-align:center;padding:120px 0 140px}
+.contato .titulo{font-size:clamp(64px,12vw,170px);-webkit-text-stroke:0}
+.contato-titulo{display:inline-block;background:var(--papel);padding:10px 34px 18px;border-radius:6px;box-shadow:0 12px 30px rgba(55,53,56,.15)}
+.contato-foto{width:230px;aspect-ratio:3/4;margin:-30px auto 0;transform:rotate(-3deg);position:relative;z-index:2}
+.contato-acoes{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:36px}
+.contato-acoes .pill{font-size:15px;padding:12px 22px}
+.contato .selo{right:12%;top:44%}
+.contato p.maquina{margin-top:26px;font-size:13px}
+
+footer{background:var(--tinta);color:rgba(234,229,217,.6);text-align:center;padding:24px;font-family:'Courier Prime',monospace;font-size:12px}
+
+/* recorte da cabeça */
+.recorte{display:block;height:auto;filter:drop-shadow(4px 8px 14px rgba(55,53,56,.22))}
+.hero-recorte{width:100%;max-width:360px;justify-self:center;transform:rotate(4deg);margin:-40px 0 -60px}
+.contato-recorte{width:250px;margin:-20px auto 0;transform:rotate(-4deg);position:relative;z-index:2}
+.case-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.case-links a{font-size:11px;padding:4px 10px}
+
+/* vitrine do instagram */
+.ig-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:16px;margin-top:56px}
+.ig-post{text-decoration:none;display:block;transition:transform .25s}
+.ig-post:nth-child(odd){transform:rotate(-1.5deg)}
+.ig-post:nth-child(even){transform:rotate(1.5deg) translateY(14px)}
+.ig-post:hover{transform:rotate(0) scale(1.05)}
+.ig-post .adesivo{aspect-ratio:4/5;padding:6px}
+.ig-post p{font-family:'Courier Prime',monospace;font-size:12px;text-align:center;margin-top:10px}
+.ig-novo{border:1.5px dashed rgba(234,229,217,.35);border-radius:14px;padding:28px 26px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px}
+.ig-novo p{font-size:15px;line-height:1.6;color:rgba(234,229,217,.75);max-width:560px}
+
+[hidden]{display:none!important}
+
+@media (max-width:980px){
+  .cases-grid,.pacotes{grid-template-columns:1fr}
+  .case:nth-child(2){margin-top:0}
+  .sobre{grid-template-columns:1fr}
+  .publico,.pilares{grid-template-columns:repeat(2,1fr)}
+  .videos,.ig-grid{grid-template-columns:repeat(3,1fr)}
+  .num-grid{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .wrap{padding:0 16px}
+  section{padding:80px 0}
+  .hero{padding:60px 0 100px}
+  .hero-cartao{grid-template-columns:1fr;padding:48px 24px 40px;transform:none}
+  .hero-fundo{inset:-10px 8px 14px -6px}
+  .hero-foto{max-width:240px;order:-1}
+  .hero .selo{width:88px;height:88px;left:-6px;bottom:auto;top:30px}
+  .hero-local{right:8px}
+  .stat-num{font-size:44px}
+  .sobre-fotos{height:440px}
+  .sobre-fotos .adesivo{width:170px}
+  .sobre-fotos .a2{left:140px}
+  .sobre-fotos .a3{left:40px;top:220px}
+  .publico,.pilares{grid-template-columns:1fr}
+  .videos,.ig-grid{grid-template-columns:repeat(2,1fr)}
+  .hero-recorte{max-width:250px;margin:-10px 0 0;order:-1}
+  .contato .selo{display:none}
+  .num-valor{font-size:60px}
+}
+</style>
+</head>
+<body>
+
+<!-- ═══════════ HERO ═══════════ -->
+<header class="hero">
+  <div class="wrap" style="width:100%">
+    <div class="hero-mesa">
+      <div class="hero-fundo"></div>
+      <div class="cartao hero-cartao">
+        <span class="pill azul hero-local">📍 João Pessoa · PB</span>
+        <div>
+          <h1 class="display hero-nome"><span class="script">Mídia kit</span>Gabi<br>Bagaseto</h1>
+          <p class="hero-tag">Creator de <b>pilates, autocuidado e reviews de lugares</b>. Tentando não viver no automático e levando minha audiência junto.</p>
+          <div class="hero-pills">
+            <a class="pill rosa" href="https://www.tiktok.com/@gbagaseto" target="_blank" rel="noopener">TikTok ↗</a>
+            <a class="pill rosa" href="https://www.instagram.com/gbagaseto" target="_blank" rel="noopener">Instagram ↗</a>
+            <a class="pill" href="mailto:gbagaseto@gmail.com">gbagaseto@gmail.com</a>
+          </div>
+        </div>
+        <img class="recorte hero-recorte" src="img/gabi-recorte.webp" alt="Gabi Bagaseto" width="1086" height="1448">
+      </div>
+      <div class="selo" aria-hidden="true">
+        <svg viewBox="0 0 100 100"><defs><path id="circ" d="M50,50 m-36,0 a36,36 0 1,1 72,0 a36,36 0 1,1 -72,0"/></defs><text font-family="Courier Prime, monospace" font-size="10.5" letter-spacing="2.2" fill="#FFFDF8"><textPath href="#circ">GBAGASETO ✦ UGC CREATOR ✦ JP ✦</textPath></text></svg>
+        <span>✦</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="letreiro" aria-hidden="true"><div class="letreiro-faixa">✦✦✦ gbagaseto ✦✦✦ pilates ✦✦✦ autocuidado ✦✦✦ reviews ✦✦✦ lifestyle solo ✦✦✦ gbagaseto ✦✦✦ pilates ✦✦✦ autocuidado ✦✦✦ reviews ✦✦✦ lifestyle solo ✦✦✦ gbagaseto ✦✦✦ pilates ✦✦✦ autocuidado ✦✦✦ reviews ✦✦✦ lifestyle solo ✦✦✦ gbagaseto ✦✦✦ pilates ✦✦✦ autocuidado ✦✦✦ reviews ✦✦✦ lifestyle solo&nbsp;</div></div>
+
+<!-- ═══════════ NÚMEROS DO TOPO ═══════════ -->
+<div class="wrap" style="padding-top:90px">
+  <div class="stats" style="margin-top:0">
+    <div class="cartao stat"><span class="stat-num" data-metrica="tiktok.seguidores">10,3<small>mil</small></span><span class="stat-label">seguidores tiktok</span></div>
+    <div class="cartao stat" data-bloco="instagram.seguidores" hidden><span class="stat-num" data-metrica="instagram.seguidores">–</span><span class="stat-label">seguidores instagram</span></div>
+    <div class="cartao stat"><span class="stat-num" data-metrica="tiktok.curtidas">384<small>mil</small></span><span class="stat-label">curtidas no tiktok</span></div>
+    <div class="cartao stat"><span class="stat-num" data-metrica="tiktok.engajamento_destaques" data-formato="pct">8,7<small>%</small></span><span class="stat-label">engajamento</span><span class="stat-extra">média de nano creators: 4–5%</span></div>
+    <div class="cartao stat"><span class="stat-num">68<small>%</small></span><span class="stat-label">audiência feminina</span></div>
+  </div>
+  <div class="marcas">
+    <span class="maquina">marcas &amp; lugares no meu conteúdo</span>
+    <span class="marca">OPPO</span><span class="marca">Xiaomi</span><span class="marca">Kutelo's Burguer</span><span class="marca">Mun Café</span><span class="marca">Bari Coffee</span><span class="marca">Lucci Resto</span>
+  </div>
+</div>
+
+<!-- ═══════════ CASES ═══════════ -->
+<section id="cases">
+  <div class="wrap">
+    <h2 class="display titulo"><span class="script">Cases</span>Marcas que<br>confiaram</h2>
+    <p class="intro">Conteúdo que parece conversa de amiga e entrega resultado de campanha.</p>
+
+    <div class="cases-grid">
+
+      <article class="cartao case">
+        <div class="case-topo"><h3 class="display case-marca">OPPO</h3><span class="pill rosa case-tipo">campanha paga</span></div>
+        <p class="case-desc">Lançamento do <b>OPPO Reno16 F</b> no Instagram e no TikTok. Mostrei câmera e bateria no meu dia a dia real: pilates, café e praia, o dia inteiro sem carregador.</p>
+        <ul class="case-entregas">
+          <li>2 vídeos · câmera e bateria</li>
+          <li>Carrossel com 7 fotos</li>
+          <li>Instagram + TikTok</li>
+        </ul>
+        <span class="pill azul" style="font-size:11px">#SeuUniversoBrilha</span>
+        <div class="case-links">
+          <a class="pill rosa" href="https://www.tiktok.com/@gbagaseto/video/7693323143322160402" target="_blank" rel="noopener">câmera ↗</a>
+          <a class="pill rosa" href="https://www.tiktok.com/@gbagaseto/video/7693666868736969991" target="_blank" rel="noopener">bateria ↗</a>
+          <a class="pill rosa" href="https://www.tiktok.com/@gbagaseto/photo/7694067452065352968" target="_blank" rel="noopener">carrossel ↗</a>
+        </div>
+      </article>
+
+      <article class="cartao case">
+        <div class="case-topo"><h3 class="display case-marca">Xiaomi</h3><span class="pill verde case-tipo">orgânico</span></div>
+        <div class="adesivo case-foto"><div class="fita azul"></div><img loading="lazy" src="img/review-xiaomi.jpg" alt="Review do robô aspirador Xiaomi"></div>
+        <p class="case-desc">Review espontâneo de um produto que eu mesma escolhi. Sem briefing e sem verba, alcançou um público 100% novo.</p>
+        <div class="case-nums">
+          <div class="case-num"><b data-video-metrica="7656075670237269266.views">240K</b><span>views</span></div>
+          <div class="case-num"><b data-video-metrica="7656075670237269266.salvamentos">1,3K</b><span>salvamentos</span></div>
+          <div class="case-num"><b data-video-metrica="7656075670237269266.compartilhamentos">1,2K</b><span>compartilh.</span></div>
+          <div class="case-num"><b data-video-metrica="7656075670237269266.comentarios">218</b><span>comentários</span></div>
+        </div>
+        <a class="case-link" href="https://www.tiktok.com/@gbagaseto/video/7656075670237269266" target="_blank" rel="noopener">assistir ↗</a>
+      </article>
+
+      <article class="cartao case">
+        <div class="case-topo"><h3 class="display case-marca">Bari<br>Coffee</h3><span class="pill case-tipo">review local</span></div>
+        <div class="adesivo case-foto"><div class="fita"></div><img loading="lazy" src="img/bari-coffee.jpg" alt="Review do Bari Coffee"></div>
+        <p class="case-desc">Visita real, com meu olhar. Público de João Pessoa salvando para ir depois.</p>
+        <div class="case-nums">
+          <div class="case-num"><b data-video-metrica="7652132392320208146.views">30,9K</b><span>views</span></div>
+          <div class="case-num"><b data-video-metrica="7652132392320208146.salvamentos">747</b><span>salvamentos</span></div>
+        </div>
+        <a class="case-link" href="https://www.tiktok.com/@gbagaseto/video/7652132392320208146" target="_blank" rel="noopener">assistir ↗</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SOBRE + PÚBLICO ═══════════ -->
+<section class="quadriculado" id="sobre">
+  <div class="wrap">
+    <div class="sobre">
+      <div class="sobre-fotos">
+        <div class="adesivo a1"><div class="fita"></div><img loading="lazy" src="img/lifestyle.jpg" alt="Gabi em um rooftop" style="object-position:center 30%"></div>
+        <div class="adesivo a2"><div class="fita verde"></div><img loading="lazy" src="img/encontros.jpg" alt="Encontro comigo mesma"></div>
+        <div class="adesivo a3"><div class="fita azul"></div><img loading="lazy" src="img/selfcare.jpg" alt="Selfcare night"></div>
+        <div class="selo" aria-hidden="true">
+          <svg viewBox="0 0 100 100"><text font-family="Courier Prime, monospace" font-size="10.5" letter-spacing="2.4" fill="#FFFDF8"><textPath href="#circ">PILATES LOVER ✦ SELFCARE ✦ </textPath></text></svg>
+          <span>🧘</span>
+        </div>
+      </div>
+      <div class="sobre-txt">
+        <h2 class="display titulo"><span class="script">oi, sou</span>eu 🤍</h2>
+        <p>Sou criadora de conteúdo e estou tentando não viver no automático. Aqui você encontra pilates, autocuidado e os lugares que valem um encontro comigo mesma.</p>
+        <p>Minha audiência é feminina, presente e fiel. Ela confia no que eu indico porque sente verdade no que eu mostro. Trabalho com marcas de bem-estar, presença e amor-próprio, do meu jeito, sem roteiro decorado.</p>
+        <div class="sobre-tags">
+          <span class="pill">pilates &amp; movimento</span><span class="pill rosa">autocuidado</span><span class="pill">reviews de lugar</span><span class="pill rosa">lifestyle solo</span><span class="pill verde">UGC</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="publico">
+      <div class="cartao pub">
+        <h4>gênero</h4><p class="pub-big">68%</p><p class="pub-sub">mulheres</p>
+        <div class="barra">Feminino<i style="--v:68%"></i><b>68%</b></div>
+        <div class="barra">Masculino<i style="--v:32%"></i><b>32%</b></div>
+      </div>
+      <div class="cartao pub">
+        <h4>idade</h4><p class="pub-big">89%</p><p class="pub-sub">entre 18 e 34 anos</p>
+        <div class="barra">18–24<i style="--v:33.5%"></i><b>33,5%</b></div>
+        <div class="barra">25–34<i style="--v:55.2%"></i><b>55,2%</b></div>
+        <div class="barra">35–44<i style="--v:8.5%"></i><b>8,5%</b></div>
+      </div>
+      <div class="cartao pub">
+        <h4>onde estão</h4><p class="pub-big">91,9%</p><p class="pub-sub">no Brasil</p>
+        <div class="barra">São Paulo<i style="--v:70%"></i><b>7,0%</b></div>
+        <div class="barra"><b style="text-align:left">João Pessoa</b><i style="--v:66%"></i><b>6,6%</b></div>
+        <div class="barra">Rio<i style="--v:37%"></i><b>3,7%</b></div>
+      </div>
+      <div class="cartao pub">
+        <h4>pico de audiência</h4><p class="pub-big">Domingo</p><p class="pub-sub">das 20h às 21h</p>
+        <p style="font-size:14px;line-height:1.5;color:var(--tinta-suave)">Ideal para ativações de fim de semana e lançamentos de segunda. 🌙</p>
+      </div>
+    </div>
+    <p class="fonte">* dados do público dos seguidores no TikTok</p>
+  </div>
+</section>
+
+<!-- ═══════════ EM NÚMEROS (automático) ═══════════ -->
+<section class="numeros" id="numeros">
+  <div class="wrap">
+    <h2 class="display titulo"><span class="script">em números</span>Crescendo<br>todo dia</h2>
+
+    <p class="plataforma">♪ TikTok · @gbagaseto</p>
+    <div class="num-grid">
+      <div class="num-card"><span class="num-valor" data-metrica="tiktok.seguidores" data-estilo="grande">10,3<span>mil</span></span><span class="num-desc">seguidores</span><span class="num-cresc" data-crescimento="tiktok" hidden></span></div>
+      <div class="num-card"><span class="num-valor" data-metrica="tiktok.curtidas" data-estilo="grande">384<span>mil</span></span><span class="num-desc">curtidas no perfil</span></div>
+      <div class="num-card"><span class="num-valor" data-metrica="tiktok.views_destaques" data-estilo="grande">579<span>mil</span></span><span class="num-desc">views nos vídeos deste kit</span></div>
+    </div>
+
+    <p class="plataforma" data-sem="instagram.seguidores">◎ Instagram · @gbagaseto</p>
+    <div class="ig-novo" data-sem="instagram.seguidores">
+      <p>Canal novo, em construção com o mesmo conteúdo que funciona no TikTok. Pacotes com Reels e Stories já disponíveis.</p>
+      <a class="pill rosa" href="https://www.instagram.com/gbagaseto" target="_blank" rel="noopener">ver perfil ↗</a>
+    </div>
+
+    <div data-bloco="instagram.seguidores" hidden>
+      <p class="plataforma">◎ Instagram · @gbagaseto <span class="pill rosa" style="font-size:10px;padding:2px 9px">novo</span></p>
+      <div class="num-grid">
+        <div class="num-card"><span class="num-valor" data-metrica="instagram.seguidores" data-estilo="grande">–</span><span class="num-desc">seguidores</span><span class="num-cresc" data-crescimento="instagram" hidden></span></div>
+        <div class="num-card" data-bloco="instagram.alcance_28d" hidden><span class="num-valor" data-metrica="instagram.alcance_28d" data-estilo="grande">–</span><span class="num-desc">contas alcançadas · 28 dias</span></div>
+        <div class="num-card" data-bloco="instagram.engajamento" hidden><span class="num-valor" data-metrica="instagram.engajamento" data-estilo="grande" data-formato="pct">–</span><span class="num-desc">engajamento médio por post</span></div>
+      </div>
+    </div>
+
+    <span class="atualizado" data-atualizado>atualizado automaticamente todos os dias</span>
+  </div>
+</section>
+
+<!-- ═══════════ O QUE EU CRIO ═══════════ -->
+<section id="conteudo">
+  <div class="wrap">
+    <h2 class="display titulo"><span class="script">o que eu</span>crio</h2>
+    <div class="pilares">
+      <div class="pilar">
+        <div class="adesivo"><div class="fita"></div><img loading="lazy" src="img/pilates.jpg" alt="Pilates" style="object-position:50% 20%"></div>
+        <span class="pill rosa">maior alcance</span>
+        <h3>Pilates &amp; movimento</h3>
+        <p>Rotina, treino e a relação com o corpo. Um estilo de vida, não só um treino.</p>
+      </div>
+      <div class="pilar">
+        <div class="adesivo"><div class="fita verde"></div><img loading="lazy" src="img/selfcare.jpg" alt="Autocuidado"></div>
+        <h3>Lifestyle solo &amp; autocuidado</h3>
+        <p>O dia a dia de quem aprende a estar bem sozinha: rituais e presença.</p>
+      </div>
+      <div class="pilar">
+        <div class="adesivo"><div class="fita azul"></div><img loading="lazy" src="img/lifestyle.jpg" alt="Reviews de lugares" style="object-position:center 30%"></div>
+        <h3>Reviews de lugar</h3>
+        <p>Restaurantes, cafés e estúdios de João Pessoa vividos de verdade.</p>
+      </div>
+      <div class="pilar">
+        <div class="adesivo"><div class="fita"></div><img loading="lazy" src="img/serie.jpg" alt="Série Encontro Marcado"></div>
+        <span class="pill verde">série autoral</span>
+        <h3>Encontro Marcado</h3>
+        <p>Série sobre marcar encontros comigo mesma. Formato fixo e assinatura própria.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ VÍDEOS ═══════════ -->
+<section class="quadriculado" id="videos">
+  <div class="wrap">
+    <h2 class="display titulo"><span class="script">clica e</span>assiste</h2>
+    <div class="videos">
+      <a class="video" href="https://www.tiktok.com/@gbagaseto/video/7656496950321171730" target="_blank" rel="noopener">
+        <div class="adesivo"><div class="fita"></div><img loading="lazy" src="img/encontro-marcado-comigo.jpg" alt="Encontro Marcado Comigo"><span class="pill rosa video-views" data-video="7656496950321171730">▶ 48,7K</span></div>
+        <p class="video-nome">encontro marcado</p>
+      </a>
+      <a class="video" href="https://www.tiktok.com/@gbagaseto/video/7652541887428988168" target="_blank" rel="noopener">
+        <div class="adesivo"><div class="fita verde"></div><img loading="lazy" src="img/aniversario.jpg" alt="Aniversário"><span class="pill rosa video-views" data-video="7652541887428988168">▶ 221K</span></div>
+        <p class="video-nome">rotina</p>
+      </a>
+      <a class="video" href="https://www.tiktok.com/@gbagaseto/video/7652132392320208146" target="_blank" rel="noopener">
+        <div class="adesivo"><div class="fita azul"></div><img loading="lazy" src="img/bari-coffee.jpg" alt="Bari Coffee"><span class="pill rosa video-views" data-video="7652132392320208146">▶ 30,9K</span></div>
+        <p class="video-nome">review · bari coffee</p>
+      </a>
+      <a class="video" href="https://www.tiktok.com/@gbagaseto/video/7656075670237269266" target="_blank" rel="noopener">
+        <div class="adesivo"><div class="fita"></div><img loading="lazy" src="img/review-xiaomi.jpg" alt="Xiaomi"><span class="pill rosa video-views" data-video="7656075670237269266">▶ 240K</span></div>
+        <p class="video-nome">tech · review</p>
+      </a>
+      <a class="video" href="https://www.tiktok.com/@gbagaseto/video/7626746995880774930" target="_blank" rel="noopener">
+        <div class="adesivo"><div class="fita verde"></div><img loading="lazy" src="img/barre.jpg" alt="Barre"><span class="pill rosa video-views" data-video="7626746995880774930">▶ 8,9K</span></div>
+        <p class="video-nome">pilates · barre</p>
+      </a>
+      <a class="video" href="https://www.tiktok.com/@gbagaseto/video/7634349947776666898" target="_blank" rel="noopener">
+        <div class="adesivo"><div class="fita azul"></div><img loading="lazy" src="img/mini-vlog.jpg" alt="Mini vlog"><span class="pill rosa video-views" data-video="7634349947776666898">▶ 28,8K</span></div>
+        <p class="video-nome">mini vlog</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ INSTAGRAM (preenchido pelo robô) ═══════════ -->
+<section id="instagram" data-ig-posts hidden>
+  <div class="wrap">
+    <h2 class="display titulo"><span class="script">no</span>Instagram</h2>
+    <div class="ig-grid"></div>
+    <p style="text-align:center;margin-top:40px"><a class="pill rosa" href="https://www.instagram.com/gbagaseto" target="_blank" rel="noopener">ver mais no instagram ↗</a></p>
+  </div>
+</section>
+
+<!-- ═══════════ PACOTES ═══════════ -->
+<section id="pacotes">
+  <div class="wrap">
+    <h2 class="display titulo"><span class="script">vamos criar</span>juntos</h2>
+    <div class="pacotes">
+      <div class="cartao pacote destaque">
+        <span class="pill">✦ mais pedido</span>
+        <h3 class="display">Experiência</h3>
+        <p>Para marcas de autocuidado, alimentação e bem-estar.</p>
+        <ul><li>1 Reels / TikTok</li><li>3 Stories com CTA</li><li>1 review de experiência</li></ul>
+        <a class="pill" href="https://wa.me/5548976064317" target="_blank" rel="noopener">quero esse ↗</a>
+      </div>
+      <div class="cartao pacote">
+        <span class="pill azul">alcance</span>
+        <h3 class="display">Lançamento</h3>
+        <p>Para marcas que querem alcance amplo e conteúdo variado.</p>
+        <ul><li>2 Reels / TikTok</li><li>1 carrossel no feed</li><li>Sequência de Stories</li></ul>
+        <a class="pill" href="https://wa.me/5548976064317" target="_blank" rel="noopener">quero esse ↗</a>
+      </div>
+      <div class="cartao pacote">
+        <span class="pill verde">joão pessoa</span>
+        <h3 class="display">Local</h3>
+        <p>Para cafés, restaurantes e estúdios de JP. Aceito permuta.</p>
+        <ul><li>1 Reels / TikTok do local</li><li>Stories da visita ao vivo</li><li>Público local nº 1</li></ul>
+        <a class="pill" href="https://wa.me/5548976064317" target="_blank" rel="noopener">quero esse ↗</a>
+      </div>
+    </div>
+    <div class="formatos">
+      <span class="pill">Reels / TikTok</span><span class="pill">Stories</span><span class="pill">Review de experiência</span><span class="pill">Carrossel</span><span class="pill">Presença em evento</span><span class="pill">UGC para a marca</span>
+    </div>
+    <p class="fonte" style="text-align:center">valores sob consulta</p>
+  </div>
+</section>
+
+<!-- ═══════════ CONTATO ═══════════ -->
+<section class="quadriculado contato" id="contato">
+  <div class="wrap" style="position:relative">
+    <div class="contato-titulo"><h2 class="display titulo" style="margin:0"><span class="script">E aí,</span>bora?</h2></div>
+    <img class="recorte contato-recorte" loading="lazy" src="img/gabi-recorte.webp" alt="Gabi Bagaseto" width="1086" height="1448">
+    <div class="contato-acoes">
+      <a class="pill verde" href="https://wa.me/5548976064317" target="_blank" rel="noopener">📲 whatsapp</a>
+      <a class="pill" href="mailto:gbagaseto@gmail.com">gbagaseto@gmail.com</a>
+      <a class="pill rosa" href="https://www.instagram.com/gbagaseto" target="_blank" rel="noopener">instagram ↗</a>
+      <a class="pill rosa" href="https://www.tiktok.com/@gbagaseto" target="_blank" rel="noopener">tiktok ↗</a>
+    </div>
+    <p class="maquina">respondo em até 24h ✦</p>
+    <div class="selo" aria-hidden="true">
+      <svg viewBox="0 0 100 100"><text font-family="Courier Prime, monospace" font-size="10.5" letter-spacing="2.2" fill="#FFFDF8"><textPath href="#circ">FALE COMIGO ✦ FALE COMIGO ✦ </textPath></text></svg>
+      <span>✦</span>
+    </div>
+  </div>
+</section>
+
+<footer>mídia kit · gabi bagaseto · joão pessoa, pb</footer>
+
+<script>
+// Números atualizados todo dia pelo robô no GitHub (repositório mediakit).
+// Se não carregar, o site continua mostrando os valores escritos acima.
+const DADOS_URL = "https://raw.githubusercontent.com/gbagaseto/mediakit/main/dados.json";
+
+const fmtNum = (n, casas) => n.toLocaleString("pt-BR", { maximumFractionDigits: casas });
+
+function partes(n, formato) {
+  if (formato === "pct") return [fmtNum(n, 1), "%"];
+  if (n >= 1e6) return [fmtNum(n / 1e6, 1), "mi"];
+  if (n >= 1e4) return [fmtNum(n / 1e3, n >= 1e5 ? 0 : 1), "mil"];
+  return [fmtNum(n, 0), ""];
+}
+
+function curto(n) {
+  if (n >= 1e6) return fmtNum(n / 1e6, 1) + "M";
+  if (n >= 1e3) return fmtNum(n / 1e3, n >= 1e5 ? 0 : 1) + "K";
+  return String(n);
+}
+
+const pegar = (dados, caminho) => caminho.split(".").reduce((o, k) => o?.[k], dados);
+
+function crescimento(historico, rede, dias) {
+  const atual = historico.at(-1)?.[rede];
+  const limite = new Date(Date.now() - dias * 864e5).toISOString().slice(0, 10);
+  const antigo = historico.find((h) => h.data >= limite && h[rede] != null);
+  if (atual == null || !antigo || antigo.data === historico.at(-1).data) return null;
+  return atual - antigo[rede];
+}
+
+function aplicar(dados) {
+  document.querySelectorAll("[data-bloco]").forEach((el) => {
+    el.hidden = pegar(dados, el.dataset.bloco) == null;
+  });
+  document.querySelectorAll("[data-sem]").forEach((el) => {
+    el.hidden = pegar(dados, el.dataset.sem) != null;
+  });
+
+  document.querySelectorAll("[data-metrica]").forEach((el) => {
+    const valor = pegar(dados, el.dataset.metrica);
+    if (valor == null) return;
+    const [num, unidade] = partes(valor, el.dataset.formato);
+    el.innerHTML = !unidade ? num
+      : el.dataset.estilo === "grande" ? `${num}<span>${unidade}</span>`
+      : `${num}<small>${unidade}</small>`;
+  });
+
+  document.querySelectorAll("[data-video]").forEach((el) => {
+    const v = dados.tiktok?.videos?.[el.dataset.video];
+    if (v) el.textContent = "▶ " + curto(v.views);
+  });
+
+  document.querySelectorAll("[data-video-metrica]").forEach((el) => {
+    const [id, campo] = el.dataset.videoMetrica.split(".");
+    const valor = dados.tiktok?.videos?.[id]?.[campo];
+    if (valor != null) el.textContent = curto(valor);
+  });
+
+  document.querySelectorAll("[data-crescimento]").forEach((el) => {
+    const ganho = crescimento(dados.historico ?? [], el.dataset.crescimento, 30);
+    if (ganho > 0) {
+      el.textContent = `↑ +${fmtNum(ganho, 0)} nos últimos 30 dias`;
+      el.hidden = false;
+    }
+  });
+
+  const posts = dados.instagram?.posts ?? [];
+  const vitrine = document.querySelector("[data-ig-posts]");
+  if (posts.length && vitrine) {
+    const grade = vitrine.querySelector(".ig-grid");
+    grade.replaceChildren(...posts.filter((p) => p.imagem).map((p, i) => {
+      const a = document.createElement("a");
+      a.className = "ig-post";
+      a.href = p.link;
+      a.target = "_blank";
+      a.rel = "noopener";
+      const numero = p.views != null ? `▶ ${curto(p.views)}` : `♥ ${curto(p.curtidas ?? 0)}`;
+      a.innerHTML = `<div class="adesivo"><div class="fita${["", " verde", " azul"][i % 3]}"></div>
+        <img loading="lazy" alt=""><span class="pill rosa video-views"></span></div><p></p>`;
+      a.querySelector("img").src = p.imagem;
+      a.querySelector("img").alt = p.legenda || "post do Instagram";
+      a.querySelector("img").onerror = () => a.remove();
+      a.querySelector(".video-views").textContent = numero;
+      a.querySelector("p").textContent = p.tipo === "VIDEO" ? "reels" : p.tipo === "CAROUSEL_ALBUM" ? "carrossel" : "post";
+      return a;
+    }));
+    vitrine.hidden = false;
+  }
+
+  const quando = new Date(dados.atualizado_em).toLocaleDateString("pt-BR", {
+    day: "numeric", month: "long", year: "numeric",
+  });
+  document.querySelectorAll("[data-atualizado]").forEach((el) => {
+    el.textContent = `números atualizados automaticamente · ${quando}`;
+  });
+}
+
+fetch(`${DADOS_URL}?v=${Date.now()}`)
+  .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+  .then(aplicar)
+  .catch(() => {});
+</script>
+</body>
+</html>

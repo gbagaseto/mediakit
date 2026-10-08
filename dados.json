@@ -1,0 +1,85 @@
+{
+  "atualizado_em": "2026-10-08T23:27:53.226023+00:00",
+  "tiktok": {
+    "seguidores": 10255,
+    "curtidas": 383751,
+    "total_videos": 277,
+    "views_destaques": 580738,
+    "engajamento_destaques": 8.7,
+    "videos": {
+      "7693323143322160402": {
+        "views": 597,
+        "curtidas": 22,
+        "comentarios": 8,
+        "compartilhamentos": 1,
+        "salvamentos": 0
+      },
+      "7693666868736969991": {
+        "views": 639,
+        "curtidas": 27,
+        "comentarios": 2,
+        "compartilhamentos": 0,
+        "salvamentos": 0
+      },
+      "7694067452065352968": {
+        "views": 488,
+        "curtidas": 34,
+        "comentarios": 2,
+        "compartilhamentos": 2,
+        "salvamentos": 5
+      },
+      "7656075670237269266": {
+        "views": 240200,
+        "curtidas": 8069,
+        "comentarios": 218,
+        "compartilhamentos": 1238,
+        "salvamentos": 1346
+      },
+      "7652132392320208146": {
+        "views": 30900,
+        "curtidas": 3383,
+        "comentarios": 82,
+        "compartilhamentos": 596,
+        "salvamentos": 747
+      },
+      "7656496950321171730": {
+        "views": 48700,
+        "curtidas": 5823,
+        "comentarios": 108,
+        "compartilhamentos": 111,
+        "salvamentos": 1347
+      },
+      "7652541887428988168": {
+        "views": 221500,
+        "curtidas": 18500,
+        "comentarios": 136,
+        "compartilhamentos": 544,
+        "salvamentos": 3923
+      },
+      "7626746995880774930": {
+        "views": 8914,
+        "curtidas": 404,
+        "comentarios": 34,
+        "compartilhamentos": 57,
+        "salvamentos": 81
+      },
+      "7634349947776666898": {
+        "views": 28800,
+        "curtidas": 3110,
+        "comentarios": 70,
+        "compartilhamentos": 27,
+        "salvamentos": 192
+      }
+    },
+    "atualizado_em": "2026-10-08T23:27:53.226023+00:00"
+  },
+  "instagram": null,
+  "historico": [
+    {
+      "data": "2026-10-08",
+      "tiktok": 10255,
+      "instagram": null
+    }
+  ],
+  "erros": []
+}
