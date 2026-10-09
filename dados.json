@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "2026-10-09T00:09:14.858612+00:00",
+  "atualizado_em": "2026-10-09T00:12:47.785689+00:00",
   "tiktok": {
     "seguidores": 10258,
-    "curtidas": 383838,
+    "curtidas": 383848,
     "total_videos": 277,
-    "views_destaques": 580780,
+    "views_destaques": 580783,
     "engajamento_destaques": 8.7,
     "videos": {
       "7693323143322160402": {
@@ -15,14 +15,14 @@
         "salvamentos": 0
       },
       "7693666868736969991": {
-        "views": 651,
+        "views": 652,
         "curtidas": 27,
         "comentarios": 2,
         "compartilhamentos": 0,
         "salvamentos": 0
       },
       "7694067452065352968": {
-        "views": 514,
+        "views": 516,
         "curtidas": 34,
         "comentarios": 2,
         "compartilhamentos": 2,
@@ -71,9 +71,72 @@
         "salvamentos": 192
       }
     },
-    "atualizado_em": "2026-10-09T00:09:14.858612+00:00"
+    "atualizado_em": "2026-10-09T00:12:47.785689+00:00"
   },
-  "instagram": null,
+  "instagram": {
+    "seguidores": 1672,
+    "total_posts": 56,
+    "alcance_28d": 116183,
+    "views_28d": 197634,
+    "engajamento": 9.5,
+    "posts": [
+      {
+        "link": "https://www.instagram.com/p/DeNhpGjEcbt/",
+        "imagem": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/840975677_18124780429934047_2284776936449196549_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=R4bcM4Li1KwQ7kNvwGEy31F&_nc_oc=AdoUl_pNGNTYcXKBvRQSaIQmk7CGMZUV42i6qDoBhiTkR2TCVErQHQz54d8dZpzxWkU&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=wDK349YfPnIKpGMGZmB7-g&_nc_tpa=Q5bMBQJjJrylkikmoZ88UAfaUNoX1MvzU_3sj5RYgDAZ3M_SyJNSDh9UfgD4nKyYnPVIabONgdOb_KY8Nw&oh=00_AQNMvm7jNV5KJ0LAJpXM-rlWYD6lF1ZvLvSbjGKfDz59mw&oe=6ACDF442",
+        "tipo": "CAROUSEL_ALBUM",
+        "legenda": "um dia comigo, fotografado por mim 💜 todas essas fotos são do OPPO Reno16 F. as ",
+        "curtidas": 43,
+        "comentarios": 4,
+        "views": 957
+      },
+      {
+        "link": "https://www.instagram.com/reel/DeKuFdwPPlA/",
+        "imagem": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/836045479_18124615204934047_3029472546419953909_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=7yDfb7cSc-AQ7kNvwG8JIvU&_nc_oc=AdrA9dj_tg1hbQretRtg4tlEmTvvl3Rc5e1kdTjzezZzlslwM7nWgx06AYGXbKUEjj8&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=wDK349YfPnIKpGMGZmB7-g&_nc_tpa=Q5bMBQKBMcYXfFI_gWHLcJWqgDH8kEDuIXX0uG5Ske5QFzOBc4Yq9wnsv1z5UoDIw3FDtmTBonjRY_E84Q&oh=00_AQO2OIXMjlNPwhzU4TJ3RsTpQ0XRThli85e-8C9FctMKrQ&oe=6ACE030F",
+        "tipo": "VIDEO",
+        "legenda": "passei o dia inteiro fora de propósito, sem carregador e sem power bank, só pra ",
+        "curtidas": 88,
+        "comentarios": 4,
+        "views": 1673
+      },
+      {
+        "link": "https://www.instagram.com/reel/DeIVtyExZ6Q/",
+        "imagem": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/837396455_18124468558934047_5815066080320741206_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=jEWWHs735RUQ7kNvwHPEIZa&_nc_oc=AdqVxC8UOnPk2MM5ecanJ47BCNY2uuSxHmZ552Gwd2XhXiy3_BsVXFdLcQ_H77spMyk&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=wDK349YfPnIKpGMGZmB7-g&_nc_tpa=Q5bMBQKdJZpPIsoP5rQFN4sLuOHNEQ-8EbLLhOvW2HnukXKBtZgYwyl-vJz6ZpQglIL1AUwOQlCyyOk5gg&oh=00_AQPOuB4qlso-LMraECKgSrS5dRDWoQ1DB04aVsmftJE9EA&oe=6ACE00BC",
+        "tipo": "VIDEO",
+        "legenda": "ninguém nunca pode ir comigo, então eu comecei a levar meu próprio fotógrafo hih",
+        "curtidas": 41,
+        "comentarios": 19,
+        "views": 1023
+      },
+      {
+        "link": "https://www.instagram.com/reel/DeHmLWVxlqN/",
+        "imagem": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/839497740_18124432759934047_2193750253975450860_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RRN1LyprtDIQ7kNvwEiM-Kl&_nc_oc=AdqJu52qobbyUmlJHg81iGovM4FHiJL3I4cq7Kmp_GJDk7M1on8buDGwnGZnoFJBwb8&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=wDK349YfPnIKpGMGZmB7-g&_nc_tpa=Q5bMBQI7AG1iv2qGo99pGfycM2oLnEsxqu0Pp2Mtp_IUyGKnS3j26P8D1WkHIEs3KGuaSY3FAx1rAgXG7g&oh=00_AQPMpxymQxOpV0dlfMt3M8gRboOidtO9yqhrNBpUGKpgnQ&oe=6ACE0BF3",
+        "tipo": "VIDEO",
+        "legenda": "algumas das minhas peças de cerâmica 💗",
+        "curtidas": 179,
+        "comentarios": 19,
+        "views": 2499
+      },
+      {
+        "link": "https://www.instagram.com/reel/Dd-bkdPMNxP/",
+        "imagem": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/831437458_18123800119934047_919319893932260210_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Dkxp9qEGYHwQ7kNvwFd-QZF&_nc_oc=AdohE7AlgfbBuh0cjA-dzOxAqO-Xpga-pvH9sB4DhgW4MbttOm8aU_UPmKh4cjhWs6g&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=wDK349YfPnIKpGMGZmB7-g&_nc_tpa=Q5bMBQLwoW3rxdRs8IOy7RIhyAYyZKAOkFJIeY_xpx-6c95Ls1thPd6xB2PBdQ3hXHMgDfxnXzCzG8XMhQ&oh=00_AQM2OE8JHYGQVmyt5aTg2c4w5JCXD0SbqpuBCR_h-rPtLA&oe=6ACDF1EE",
+        "tipo": "VIDEO",
+        "legenda": "🪩 glitter nails 🪩 #nails #unhas",
+        "curtidas": 24,
+        "comentarios": 0,
+        "views": 1551
+      },
+      {
+        "link": "https://www.instagram.com/reel/Dd6vjVpxRWg/",
+        "imagem": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/829647800_18123503005934047_323315473627846499_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=1sgIZ0mY5XoQ7kNvwHloXj-&_nc_oc=Adrwbv2JjdPlEYNtcAb2mqk_7cVDrWaGKRdeT6iFCaRTy9sE0-UN2USukJ-cTKeLx78&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=wDK349YfPnIKpGMGZmB7-g&_nc_tpa=Q5bMBQIEV01n58OoMvqqwiF2RgytD9xBd6J09OgEY4LEN5FXwRIxim1xTH1YFewFELBgyR92dGwvOYwbIA&oh=00_AQPGWbTeb3jsvVAqhk9Y1z6mmZc4Fst6Xx8-b5mGVAFnaA&oe=6ACE0AC3",
+        "tipo": "VIDEO",
+        "legenda": "💅🏼 #girls #fy #fyp",
+        "curtidas": 6,
+        "comentarios": 0,
+        "views": 248
+      }
+    ],
+    "atualizado_em": "2026-10-09T00:12:47.785689+00:00"
+  },
   "historico": [
     {
       "data": "2026-10-08",
@@ -83,10 +146,8 @@
     {
       "data": "2026-10-09",
       "tiktok": 10258,
-      "instagram": null
+      "instagram": 1672
     }
   ],
-  "erros": [
-    "instagram: Invalid OAuth access token - Cannot parse access token"
-  ]
+  "erros": []
 }
