@@ -1,28 +1,28 @@
 {
-  "atualizado_em": "2026-10-08T23:42:21.562726+00:00",
+  "atualizado_em": "2026-10-09T00:09:14.858612+00:00",
   "tiktok": {
-    "seguidores": 10255,
-    "curtidas": 383783,
+    "seguidores": 10258,
+    "curtidas": 383838,
     "total_videos": 277,
-    "views_destaques": 580743,
+    "views_destaques": 580780,
     "engajamento_destaques": 8.7,
     "videos": {
       "7693323143322160402": {
-        "views": 597,
+        "views": 601,
         "curtidas": 22,
         "comentarios": 8,
         "compartilhamentos": 1,
         "salvamentos": 0
       },
       "7693666868736969991": {
-        "views": 641,
+        "views": 651,
         "curtidas": 27,
         "comentarios": 2,
         "compartilhamentos": 0,
         "salvamentos": 0
       },
       "7694067452065352968": {
-        "views": 491,
+        "views": 514,
         "curtidas": 34,
         "comentarios": 2,
         "compartilhamentos": 2,
@@ -54,7 +54,7 @@
         "curtidas": 18500,
         "comentarios": 136,
         "compartilhamentos": 544,
-        "salvamentos": 3923
+        "salvamentos": 3924
       },
       "7626746995880774930": {
         "views": 8914,
@@ -65,13 +65,13 @@
       },
       "7634349947776666898": {
         "views": 28800,
-        "curtidas": 3111,
+        "curtidas": 3112,
         "comentarios": 70,
         "compartilhamentos": 27,
         "salvamentos": 192
       }
     },
-    "atualizado_em": "2026-10-08T23:42:21.562726+00:00"
+    "atualizado_em": "2026-10-09T00:09:14.858612+00:00"
   },
   "instagram": null,
   "historico": [
@@ -79,7 +79,14 @@
       "data": "2026-10-08",
       "tiktok": 10255,
       "instagram": null
+    },
+    {
+      "data": "2026-10-09",
+      "tiktok": 10258,
+      "instagram": null
     }
   ],
-  "erros": []
+  "erros": [
+    "instagram: Invalid OAuth access token - Cannot parse access token"
+  ]
 }
