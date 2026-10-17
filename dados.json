@@ -1,36 +1,36 @@
 {
-  "atualizado_em": "2026-10-16T09:28:35.206234+00:00",
+  "atualizado_em": "2026-10-17T09:22:19.460344+00:00",
   "tiktok": {
-    "seguidores": 10642,
-    "curtidas": 394818,
-    "total_videos": 284,
-    "views_destaques": 590464,
+    "seguidores": 10706,
+    "curtidas": 396550,
+    "total_videos": 286,
+    "views_destaques": 591419,
     "engajamento_destaques": 8.6,
     "videos": {
       "7693323143322160402": {
-        "views": 1219,
+        "views": 1239,
         "curtidas": 28,
         "comentarios": 8,
         "compartilhamentos": 1,
         "salvamentos": 1
       },
       "7693666868736969991": {
-        "views": 1792,
-        "curtidas": 47,
+        "views": 1860,
+        "curtidas": 50,
         "comentarios": 5,
         "compartilhamentos": 0,
         "salvamentos": 2
       },
       "7694067452065352968": {
-        "views": 1720,
-        "curtidas": 67,
+        "views": 1781,
+        "curtidas": 70,
         "comentarios": 2,
         "compartilhamentos": 4,
-        "salvamentos": 19
+        "salvamentos": 20
       },
       "7656075670237269266": {
-        "views": 241500,
-        "curtidas": 8093,
+        "views": 241600,
+        "curtidas": 8096,
         "comentarios": 220,
         "compartilhamentos": 1245,
         "salvamentos": 1353
@@ -44,54 +44,63 @@
       },
       "7656496950321171730": {
         "views": 49300,
-        "curtidas": 5866,
-        "comentarios": 108,
+        "curtidas": 5869,
+        "comentarios": 109,
         "compartilhamentos": 111,
         "salvamentos": 1354
       },
       "7652541887428988168": {
-        "views": 225600,
+        "views": 226200,
         "curtidas": 18600,
         "comentarios": 137,
         "compartilhamentos": 551,
-        "salvamentos": 3968
+        "salvamentos": 3972
       },
       "7626746995880774930": {
-        "views": 8933,
+        "views": 8939,
         "curtidas": 404,
         "comentarios": 34,
         "compartilhamentos": 57,
         "salvamentos": 81
       },
       "7634349947776666898": {
-        "views": 29300,
-        "curtidas": 3146,
+        "views": 29400,
+        "curtidas": 3151,
         "comentarios": 70,
         "compartilhamentos": 27,
-        "salvamentos": 194
+        "salvamentos": 195
       }
     },
-    "atualizado_em": "2026-10-16T09:28:35.206234+00:00"
+    "atualizado_em": "2026-10-17T09:22:19.460344+00:00"
   },
   "instagram": {
-    "seguidores": 1700,
+    "seguidores": 1725,
     "total_posts": 57,
-    "alcance_28d": 83410,
-    "views_28d": 149597,
-    "engajamento": 7.2,
+    "alcance_28d": 83169,
+    "views_28d": 154452,
+    "engajamento": 7.5,
     "posts": [
       {
+        "link": "https://www.instagram.com/reel/DekdJTZsuYl/",
+        "imagem": "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/844826664_18126481513934047_6921929575326576080_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=qIL-FVvTLlcQ7kNvwEVTFEk&_nc_oc=AdqQCFjr0Zy6KkPesUHeZrHWYZaLauu5E68mybO8zBljh6nPuEynP5b7BzCsQly4ni8&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1H3tfWzPIAAVt2uo8eHGng&_nc_tpa=Q5bMBQKfd5ONDVSe2VugHROOZ8Mf-f9R0pRsKaiwFVE1OkuGkaoJFNhZFga8s6PKd7ahvwfXehH5BVQb8Q&oh=00_AQMM9cmhUS0-Xl_A_Ue9PHfkh5cuKMoEXqiW6zBPl5kh8Q&oe=6AD90B8B",
+        "tipo": "VIDEO",
+        "legenda": "better late than ugly 🧑🏻‍🩰🩷",
+        "curtidas": 5,
+        "comentarios": 0,
+        "views": 129
+      },
+      {
         "link": "https://www.instagram.com/reel/Deih3yvR2EE/",
-        "imagem": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/849146765_2499310400590982_3603732492623103024_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=8YbbGZ6-TAEQ7kNvwHP-4Hl&_nc_oc=Adp6d2r-gJBZvwwlu_EA1HnvshFV_I020YmuapuiQswDEzDb9fa-VSWeEPuSLIMOwoU&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=UWQujuA9dN-V1CRqXxN1xg&_nc_tpa=Q5bMBQJF4jYIuLCCQy-FJIGyjR5nsbv18LAwCpG_L7ubmJDlThXs3Ewg_9JWujpYAz_KN3MzusnPClbZ0w&oh=00_AQOpdOV5dhLR8vHTWrcMoyZ29MGKlRIwF7lXaQ0x4epOwQ&oe=6AD7CB47",
+        "imagem": "https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/849146765_2499310400590982_3603732492623103024_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=8YbbGZ6-TAEQ7kNvwHG7Agx&_nc_oc=AdobHHyliz5B9J6d6972RJD-NLKiJd15_Z-E_D30wfzRZ11d5jtbGyeGHs1kOnD0l3k&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1H3tfWzPIAAVt2uo8eHGng&_nc_tpa=Q5bMBQJHMD_ahnkwa3T8G3tVHvcKZeoDj-vlaI8ZMjZ3jcoNuAwKXw7Gz9HO6Yc9H0oqG7o_1aR7H8Y9QA&oh=00_AQN-9PmZ9jQGbNPWpavjGvVTZ1fXUjvez5YWxUmxojVtWA&oe=6AD91CC7",
         "tipo": "VIDEO",
         "legenda": "um pouquinho de como foi a inauguração da primeira loja da @vizzelaoficial no no",
-        "curtidas": 13,
-        "comentarios": 2,
-        "views": 268
+        "curtidas": 57,
+        "comentarios": 11,
+        "views": 1076
       },
       {
         "link": "https://www.instagram.com/reel/DedJxcjMbjW/",
-        "imagem": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/848186758_18125922268934047_3186411593165526150_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=zjXMfrTvIz8Q7kNvwGGaToY&_nc_oc=AdqTtgAnQOluRqhB1plWqmmPqpHaOf_Dd3UK6ZR3uc2fHgmar88GN0MOLDwO_PebrVs&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=UWQujuA9dN-V1CRqXxN1xg&_nc_tpa=Q5bMBQJ7Ap67km--UtMKUpTg3K_7coE8aj66KYtd6eydxTYUvK48MdpSTdb3rqJ9ozzWG02-O8np5fGpmA&oh=00_AQMNZDuXOJMXQmN4EQAHVb5X1gKC6J_w2vVPZZU7UDdxsQ&oe=6AD7C12C",
+        "imagem": "https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/848186758_18125922268934047_3186411593165526150_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=zjXMfrTvIz8Q7kNvwGeRafa&_nc_oc=Adp0bzsOYV-TUNzMTLKwsjrohqGXX2zrA0QE2oel25YHvBQl0OXuwujSBTlZL3nv5lQ&_nc_zt=23&_nc_ht=scontent-dfw5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1H3tfWzPIAAVt2uo8eHGng&_nc_tpa=Q5bMBQIeAmLMvAAyFlT7KXPE8IEkCDQNFCNnKl9fV5kglYeMGq0eUNW8UYd7znS6WJfrqZ_aW1ikjZTRDQ&oh=00_AQPkpWsjzYzbikV7FFJ-jfG_qP4caqC0IjPMkcwl12qL6w&oe=6AD912AC",
         "tipo": "VIDEO",
         "legenda": "obrigada amigas 💫🎀🐼🩷 #contentcreator #girls #fy #vizzela",
         "curtidas": 0,
@@ -100,7 +109,7 @@
       },
       {
         "link": "https://www.instagram.com/reel/DedJZhiMXx0/",
-        "imagem": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/848350955_18125922076934047_1445038988047889046_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=0JwJVOFJy-0Q7kNvwG9a7Ws&_nc_oc=Adr79qJquORZ6YYRRJ5ylQGGq-DIKz3prjvHo8hpnG8a45xhqV8M5IVMTR2usjeRtkw&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=UWQujuA9dN-V1CRqXxN1xg&_nc_tpa=Q5bMBQJxPLwf_1_cAz0jZL5rlyhCJmBY0oNO3SsMfzkyR42setT49gJcryod2TJw79XA9RgiYlNzg-4nsQ&oh=00_AQOvaOozzvIzIqSW3iLQ2uhqNQ52xg9tG-tNqhWchMc0Uw&oe=6AD7B57C",
+        "imagem": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/848350955_18125922076934047_1445038988047889046_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=0JwJVOFJy-0Q7kNvwHGow7_&_nc_oc=AdpwJN2QMuSZKeh9it6-yIzK9D2fji5Owc_UQjalpFWgQ5I4zxYqL_YJZj1PuteC0Co&_nc_zt=23&_nc_ht=scontent-dfw6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1H3tfWzPIAAVt2uo8eHGng&_nc_tpa=Q5bMBQKYUhGMfCfMcmEAI_11NS9UC8tlezKarwHXyGeWGLFppR-RhewT5BLJWw2G1HnDe1pJGiokokAGZw&oh=00_AQP-kOdfgN3jQYmiJQLjdGJQPW6oSjDEcZbSG2IBG5yceA&oe=6AD906FC",
         "tipo": "VIDEO",
         "legenda": "amooo! 🎀💫 ",
         "curtidas": 25,
@@ -109,33 +118,24 @@
       },
       {
         "link": "https://www.instagram.com/p/DeNhpGjEcbt/",
-        "imagem": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/840975677_18124780429934047_2284776936449196549_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=0uxtWBknWiIQ7kNvwE5S0pG&_nc_oc=AdpFjSrJ29CPSn4ZjiFSshu_0MiEqjC0GMDMy3_uA5oP13TP8x5X-jcGTyJlKE9zrSs&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=UWQujuA9dN-V1CRqXxN1xg&_nc_tpa=Q5bMBQIY5Om6hPaqFu6xNsLiX8bZvHJyEimZ60dUkqFgbvv7jjn3u_0daxHvO51I25JIwazwco5Ik2WP4A&oh=00_AQNxUaUm5gSFc9JIvt-etXPv86Jejov1qI_L1sDJ4jpHVA&oe=6AD7D782",
+        "imagem": "https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/840975677_18124780429934047_2284776936449196549_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=0uxtWBknWiIQ7kNvwGYIp93&_nc_oc=Adq68sV4RkF_IlzJSeP_1SIkFQxFX5HlkGdnA-jufLBcHktcBYZp0wzS1t4pXGKOupA&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1H3tfWzPIAAVt2uo8eHGng&_nc_tpa=Q5bMBQISS1hioJktj_gTNy-coJjxaCPpHiKofl8W8MULCyAtZ9O6jMEYTrI8RpUB6yGOgx87WGUJAMwLTA&oh=00_AQM3sB5bpMKxwKNboGa-f4-UgUytvyItEFqyYdKbu4G4qA&oe=6AD92902",
         "tipo": "CAROUSEL_ALBUM",
         "legenda": "um dia comigo, fotografado por mim 💜 todas essas fotos são do OPPO Reno16 F. as ",
-        "curtidas": 51,
+        "curtidas": 54,
         "comentarios": 4,
-        "views": 1280
+        "views": 1375
       },
       {
         "link": "https://www.instagram.com/reel/DeKuFdwPPlA/",
-        "imagem": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/836045479_18124615204934047_3029472546419953909_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=M2R3Sca8eGAQ7kNvwG2lgl7&_nc_oc=AdokF2s0vZ3dTLOzNcI3W52CSu_QQZr4b7YbniucoscgISPlHqAsikW01iRVrgG6fa4&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=UWQujuA9dN-V1CRqXxN1xg&_nc_tpa=Q5bMBQIjf5JhC0GoSH3fUDqJhzv0aVBGrVoGNlJGc5YoksKg8-hn0H3L5AhBC8D9JMyiDxu1sl9HJkr_uw&oh=00_AQNYFp64lpzXL0ZMf1wwdozsYq2qnjlDwztxl5BnOMvUhQ&oe=6AD7AE0F",
+        "imagem": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/836045479_18124615204934047_3029472546419953909_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=M2R3Sca8eGAQ7kNvwENT3il&_nc_oc=Adr_zQO6s_MFn1onIJRoZztG77VWXPSs2qSoGyEt_T-abwEGVZEK9e1mvboBNTovDjI&_nc_zt=23&_nc_ht=scontent-dfw6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1H3tfWzPIAAVt2uo8eHGng&_nc_tpa=Q5bMBQJPoCgS8VKnzcqO4At-Rtnma-z7J7MIisTMV3nFuGXVk510Seyts2BqJYKs-DbnM_OPK_F1qQsjeg&oh=00_AQPv53iF4gwadqse7g3SYb2JdAIjdL1aDz_6_TMlGbNXSA&oe=6AD8FF8F",
         "tipo": "VIDEO",
         "legenda": "passei o dia inteiro fora de propósito, sem carregador e sem power bank, só pra ",
-        "curtidas": 92,
+        "curtidas": 93,
         "comentarios": 3,
-        "views": 1808
-      },
-      {
-        "link": "https://www.instagram.com/reel/DeIVtyExZ6Q/",
-        "imagem": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/837396455_18124468558934047_5815066080320741206_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=gy_06FeZiPwQ7kNvwH5gG3O&_nc_oc=AdqXm_U5r9UdK0RQzefxoPGFuDCDeAnB-3pv_meBYSQkGnFZqZ0J8DdstNlAino0Ne4&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=UWQujuA9dN-V1CRqXxN1xg&_nc_tpa=Q5bMBQIawWi7H8oM6n8ven5QxM5eLZ-ZGdGqG-Y3ZkqxvNbpluTFV8VTBZHvv-TDkG_DFqe0e63S2Zdozg&oh=00_AQNmDW_OPgY7CWzkZ5TPtJdTe5bpeo2NwTv8m73QPB1wCg&oe=6AD7ABBC",
-        "tipo": "VIDEO",
-        "legenda": "ninguém nunca pode ir comigo, então eu comecei a levar meu próprio fotógrafo hih",
-        "curtidas": 42,
-        "comentarios": 19,
-        "views": 1118
+        "views": 1853
       }
     ],
-    "atualizado_em": "2026-10-16T09:28:35.206234+00:00"
+    "atualizado_em": "2026-10-17T09:22:19.460344+00:00"
   },
   "historico": [
     {
@@ -182,6 +182,11 @@
       "data": "2026-10-16",
       "tiktok": 10642,
       "instagram": 1700
+    },
+    {
+      "data": "2026-10-17",
+      "tiktok": 10706,
+      "instagram": 1725
     }
   ],
   "erros": []
