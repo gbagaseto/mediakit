@@ -1,42 +1,42 @@
 {
-  "atualizado_em": "2026-10-31T09:33:17.430334+00:00",
+  "atualizado_em": "2026-11-01T09:38:32.007563+00:00",
   "tiktok": {
-    "seguidores": 11106,
-    "curtidas": 413893,
+    "seguidores": 11110,
+    "curtidas": 414565,
     "total_videos": 292,
-    "views_destaques": 603610,
+    "views_destaques": 604166,
     "engajamento_destaques": 8.5,
     "videos": {
       "7693323143322160402": {
-        "views": 1385,
+        "views": 1390,
         "curtidas": 29,
         "comentarios": 8,
         "compartilhamentos": 1,
         "salvamentos": 3
       },
       "7693666868736969991": {
-        "views": 2603,
-        "curtidas": 71,
+        "views": 2647,
+        "curtidas": 75,
         "comentarios": 5,
-        "compartilhamentos": 1,
-        "salvamentos": 7
+        "compartilhamentos": 4,
+        "salvamentos": 8
       },
       "7694067452065352968": {
-        "views": 2054,
+        "views": 2061,
         "curtidas": 77,
         "comentarios": 6,
         "compartilhamentos": 6,
         "salvamentos": 25
       },
       "7656075670237269266": {
-        "views": 243900,
-        "curtidas": 8135,
+        "views": 244100,
+        "curtidas": 8139,
         "comentarios": 229,
-        "compartilhamentos": 1270,
+        "compartilhamentos": 1272,
         "salvamentos": 1363
       },
       "7652132392320208146": {
-        "views": 31200,
+        "views": 31300,
         "curtidas": 3389,
         "comentarios": 82,
         "compartilhamentos": 597,
@@ -44,17 +44,17 @@
       },
       "7656496950321171730": {
         "views": 50000,
-        "curtidas": 5898,
+        "curtidas": 5900,
         "comentarios": 109,
         "compartilhamentos": 111,
         "salvamentos": 1351
       },
       "7652541887428988168": {
-        "views": 233500,
+        "views": 233700,
         "curtidas": 18800,
         "comentarios": 137,
         "compartilhamentos": 559,
-        "salvamentos": 4031
+        "salvamentos": 4032
       },
       "7626746995880774930": {
         "views": 8968,
@@ -68,39 +68,39 @@
         "curtidas": 3182,
         "comentarios": 70,
         "compartilhamentos": 28,
-        "salvamentos": 199
+        "salvamentos": 200
       }
     },
-    "atualizado_em": "2026-10-31T09:33:17.430334+00:00"
+    "atualizado_em": "2026-11-01T09:38:32.007563+00:00"
   },
   "instagram": {
     "seguidores": 1753,
     "total_posts": 59,
-    "alcance_28d": 34715,
-    "views_28d": 81862,
+    "alcance_28d": 34617,
+    "views_28d": 83416,
     "engajamento": 7.5,
     "posts": [
       {
         "link": "https://www.instagram.com/reel/DervylHyd6a/",
-        "imagem": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/856091609_18127067656934047_7197109653959197015_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZJl6WhtBX0oQ7kNvwHf54-H&_nc_oc=AdrLhfee-HJsPWiVtMU7MHBCCqz-SNjdCeCIWwnCWm-OP8rI6sU6tHfyOX-XEf6HNr4&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=T_gq51hpBCxKEi6R2dwVTA&_nc_tpa=Q5bMBQJBfatiS60MxrT_AJPme8xMt5byV8z_WHqaU5cX24lfCnXQwadEkHaEZ2kWVuUjVp8rnuk0Th_OeQ&oh=00_AQRC_lmNh3b_Ve2ZDpca4SjblmuddXGhaDv2PzI5ZcpGgw&oe=6AEB7C46",
+        "imagem": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/856091609_18127067656934047_7197109653959197015_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=xHXXy9dN8O4Q7kNvwExI8YR&_nc_oc=AdoN8YInNB6x8dhyv69Gd-L0CvhIuRz01JgTc_qMPpw4cn46Q3VfNegFJzvrbdYOmgk&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=G8p0fFR1kBXDsLapWOUpMQ&_nc_tpa=Q5bMBQJQHQXF4bINkMv98pkxg26FaEs3GujRIP9IVsxmmu-3Kkb_RPMyiawsxv1GieC4sRO4iTJreifyqA&oh=00_AQR62FvmzKZ-3xnVAKUtrdQ54dVX0flqBkUAcGkyclAqtw&oe=6AECCDC6",
         "tipo": "VIDEO",
         "legenda": "chegou a @vizzelaoficial em JP 🩷 fui na inauguração no Shopping Manaíra, da prim",
-        "curtidas": 173,
+        "curtidas": 174,
         "comentarios": 6,
-        "views": 3634
+        "views": 3656
       },
       {
         "link": "https://www.instagram.com/reel/DerfS2wxTSm/",
-        "imagem": "https://scontent-iad3-2.cdninstagram.com/v/t15.5256-10/854641057_2130606270876039_7069610818474716775_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZqHHpPzj8v0Q7kNvwEWmYAH&_nc_oc=AdrurGk_14trIe41V0dxoFeyhRKp4AjIr1Zxkf9R_gYifBcbHqBYsxcIYDIcsMIV8e4&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=T_gq51hpBCxKEi6R2dwVTA&_nc_tpa=Q5bMBQLavWGM-P-NWZXiOyRCqE6WbOm4dsafkWtAhgfOeqIL2ma_7yhuNDE95UBNxY6Hd0tqyqIU65TVlQ&oh=00_AQTuQA-Nehd72N-dCVZ2fqDYBzvrpm7xAqPEUXkruP-rMQ&oe=6AEB99A3",
+        "imagem": "https://scontent-iad3-2.cdninstagram.com/v/t15.5256-10/854641057_2130606270876039_7069610818474716775_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=1fwKq2uFIJkQ7kNvwFrgcwP&_nc_oc=AdogH0ZMf_nw8eacoDABO2_z-7XpQwBAJnhHLnUbFZuqZQns0RyiJFCzLC3kQEDTKuw&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=G8p0fFR1kBXDsLapWOUpMQ&_nc_tpa=Q5bMBQIHRFKQCsZCsN9X61YA45_lA17u8i6rUovC4sCoHwn-CA8txw_8EBOkXlq0MCPkl66lg0W3bIeMyQ&oh=00_AQRibVLzlyPUD9Gvx97JhHEjGR_L9TNlUzh9c6pDySObrQ&oe=6AECEB23",
         "tipo": "VIDEO",
         "legenda": "recebi meu press kit de embaixadora do Ofir Club e cada mimo me deixou ainda mai",
         "curtidas": 40,
         "comentarios": 9,
-        "views": 1452
+        "views": 1485
       },
       {
         "link": "https://www.instagram.com/reel/DeqaGvIBAJz/",
-        "imagem": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/857230404_18126946306934047_856300196625156247_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=afVuq3uAFRgQ7kNvwHt8uRN&_nc_oc=AdoQ3NxSI7bWRtoNI14iunteCGRjugO2ICnUU4B4fc_V_8x5lvDXgdvkvrKkKf6QDKc&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=T_gq51hpBCxKEi6R2dwVTA&_nc_tpa=Q5bMBQLk_Aq9u8_8tgOvvTbL_f8wlUrzaM-3XwhXgCdqI-TgMDtJZuB0gnTcMUUvopL-D44A2FTo7zqS-w&oh=00_AQTyYQIGUyi9BSLRI-FKwSfyM1GoPWJ0Est4VB0IJkkj9Q&oe=6AEB84E4",
+        "imagem": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/857230404_18126946306934047_856300196625156247_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ue5kbgkMMqEQ7kNvwFR6w3Z&_nc_oc=Adoiuqn50N0qsTgoXmENM9U1VCPkzZG66_XJ-4oKVjXv-dPXSvWNY9VaR2kHnIa8og0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=G8p0fFR1kBXDsLapWOUpMQ&_nc_tpa=Q5bMBQLCXq21Tsca1BlbTjYSqqbbkgXSiuZT3yJTOcQhlOFiYMiU23Ukm4aTOPv7-NDtFALuTvxNG_hYnA&oh=00_AQQjU-KT6tzXdaqQ7p83dhkWCuPViNBK8KseipvVncnSzw&oe=6AECD664",
         "tipo": "VIDEO",
         "legenda": "juro #gabimoura #victoriassecretfashionshow #victoriassecretpink #victoriassecre",
         "curtidas": 18,
@@ -109,7 +109,7 @@
       },
       {
         "link": "https://www.instagram.com/reel/DekdJTZsuYl/",
-        "imagem": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/844826664_18126481513934047_6921929575326576080_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=BE36vD8DarUQ7kNvwHnxWfy&_nc_oc=Adqvkp2SKy5Rw8me3mDNFSAVEcICyzpYQnNCVGKjpl026M_pF68W_vlBndB3gX6eroM&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=T_gq51hpBCxKEi6R2dwVTA&_nc_tpa=Q5bMBQJCsDbYAsxoQSrc6zKZrQFVe1_W65fhhjkF6QOBI3LjQeq2qsnnn7_G_EFttg9KmVQFN9i6o66GcA&oh=00_AQR_HPvwrzpnNM6YoCRLm-0wXoTHsdabxRQUpCjPbHJiOw&oe=6AEB808B",
+        "imagem": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/844826664_18126481513934047_6921929575326576080_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YpB4lb80-JYQ7kNvwHN-kyE&_nc_oc=Adpj1kM8a6wX9vNZtGJTFtgNs1Ev4s7za6eUFtUIGY7SkkYaVk44gsZ70LfJouzZ6JE&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=G8p0fFR1kBXDsLapWOUpMQ&_nc_tpa=Q5bMBQLIs2OSSjV5PuLP7_p27WpQk5UBum5ZyMI6sRI_xxAWiDhbHD0OfoHYx_f80zHH8bb5YQv3GYR7gw&oh=00_AQTV_iRkdrwkVzNY6kSKNouYVdcbEUF33ptR2TUN7DCiKQ&oe=6AECD20B",
         "tipo": "VIDEO",
         "legenda": "better late than ugly 🧑🏻‍🩰🩷",
         "curtidas": 6,
@@ -118,16 +118,16 @@
       },
       {
         "link": "https://www.instagram.com/reel/Deih3yvR2EE/",
-        "imagem": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/849146765_2499310400590982_3603732492623103024_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=8DBLzufEFWsQ7kNvwFp-LQv&_nc_oc=AdrA9fXxVCdMT1cgOXJI0XI02WiLJ_PR0ONAsERJ9eTFQrMuWXm9PnqsJkxPRbOqLNI&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=T_gq51hpBCxKEi6R2dwVTA&_nc_tpa=Q5bMBQJZcvSSdZ8VX7k9UolZ-jrn9wA4UQ5AEz65vOBd663DeyiArJrcBc6gsLQLno1P-83rbMB7kdxuIg&oh=00_AQQowp51ApMWdtLqvKoBwjbGftqK70iBtgvBYLwB4rhcow&oe=6AEB91C7",
+        "imagem": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/849146765_2499310400590982_3603732492623103024_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=8DBLzufEFWsQ7kNvwG8X-l5&_nc_oc=Adratls33FFUUnTdt_MlOyqN2hT2ixhBLdQWJMdyJGouk6FhvWmmX9kNFcEDrBiX8dE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=G8p0fFR1kBXDsLapWOUpMQ&_nc_tpa=Q5bMBQLrRuKLDQ2Y_P3rkMbrabkPbWGPOgmL0oDQHRnY32zoDndnIfUhxssmcesCnj2g-TkmZ04OgeqTuQ&oh=00_AQQXEsAmhMumIINuh4mXXGfntoz7Pme4MynA7Byve812LQ&oe=6AECE347",
         "tipo": "VIDEO",
         "legenda": "um pouquinho de como foi a inauguração da primeira loja da @vizzelaoficial no no",
         "curtidas": 79,
         "comentarios": 18,
-        "views": 1721
+        "views": 1730
       },
       {
         "link": "https://www.instagram.com/reel/DedJxcjMbjW/",
-        "imagem": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/848186758_18125922268934047_3186411593165526150_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=GamR_zBsusgQ7kNvwHc3csV&_nc_oc=Ado1WS_ZPSVKZ3X3W2RxMVPPxWHx6BnCjaSK-n2JRuV0KwW7x0PTLdGp97gxDJtSCyA&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=T_gq51hpBCxKEi6R2dwVTA&_nc_tpa=Q5bMBQJCQ-uB8zIBIgPc45XYd7QgEbDW1Ihl6fUCqZTVxMIXBDXaPzuEeBRzewYI_09VEy-Tj008N3MErA&oh=00_AQTV1xCuJIeXD-Lmlw9jCDKOHPycX1gp66tuBuBx3QrC9Q&oe=6AEB87AC",
+        "imagem": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/848186758_18125922268934047_3186411593165526150_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=GamR_zBsusgQ7kNvwGcMWUo&_nc_oc=AdpqBmKLBB9_w8nDlI9EwrAGIiTNZAVSBnUFTw5u368fSnH0pVox4In__9bmCJh53Ow&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=G8p0fFR1kBXDsLapWOUpMQ&_nc_tpa=Q5bMBQJqdYZOdQ2sYCbsp-YgBpffbqykcYX0dNiA-oWAwY5K4f64kpRShRcO0IXE7NBExCx-mDIK_DdtxQ&oh=00_AQTb9Vu-k1KDJ73JQl9YMsLkV3GYdX03XRdkQdYaV7nvog&oe=6AECD92C",
         "tipo": "VIDEO",
         "legenda": "obrigada amigas 💫🎀🐼🩷 #contentcreator #girls #fy #vizzela",
         "curtidas": 0,
@@ -135,7 +135,7 @@
         "views": 117
       }
     ],
-    "atualizado_em": "2026-10-31T09:33:17.430334+00:00"
+    "atualizado_em": "2026-11-01T09:38:32.007563+00:00"
   },
   "historico": [
     {
@@ -256,6 +256,11 @@
     {
       "data": "2026-10-31",
       "tiktok": 11106,
+      "instagram": 1753
+    },
+    {
+      "data": "2026-11-01",
+      "tiktok": 11110,
       "instagram": 1753
     }
   ],
