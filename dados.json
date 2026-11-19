@@ -1,36 +1,36 @@
 {
-  "atualizado_em": "2026-11-18T17:53:24.256088+00:00",
+  "atualizado_em": "2026-11-19T18:05:14.936875+00:00",
   "tiktok": {
-    "seguidores": 11677,
-    "curtidas": 431932,
+    "seguidores": 11683,
+    "curtidas": 432602,
     "total_videos": 296,
-    "views_destaques": 618545,
-    "engajamento_destaques": 8.4,
+    "views_destaques": 619163,
+    "engajamento_destaques": 8.3,
     "videos": {
       "7693323143322160402": {
-        "views": 1502,
+        "views": 1505,
         "curtidas": 29,
         "comentarios": 8,
         "compartilhamentos": 1,
         "salvamentos": 3
       },
       "7693666868736969991": {
-        "views": 3922,
-        "curtidas": 116,
+        "views": 4030,
+        "curtidas": 126,
         "comentarios": 5,
         "compartilhamentos": 4,
-        "salvamentos": 17
+        "salvamentos": 18
       },
       "7694067452065352968": {
-        "views": 2321,
+        "views": 2326,
         "curtidas": 82,
         "comentarios": 7,
         "compartilhamentos": 6,
         "salvamentos": 27
       },
       "7656075670237269266": {
-        "views": 247700,
-        "curtidas": 8209,
+        "views": 247900,
+        "curtidas": 8212,
         "comentarios": 230,
         "compartilhamentos": 1291,
         "salvamentos": 1380
@@ -44,20 +44,20 @@
       },
       "7656496950321171730": {
         "views": 50700,
-        "curtidas": 5942,
+        "curtidas": 5943,
         "comentarios": 109,
         "compartilhamentos": 113,
-        "salvamentos": 1357
+        "salvamentos": 1356
       },
       "7652541887428988168": {
-        "views": 241500,
+        "views": 241800,
         "curtidas": 19000,
         "comentarios": 137,
-        "compartilhamentos": 565,
-        "salvamentos": 4104
+        "compartilhamentos": 568,
+        "salvamentos": 4105
       },
       "7626746995880774930": {
-        "views": 9000,
+        "views": 9002,
         "curtidas": 404,
         "comentarios": 34,
         "compartilhamentos": 57,
@@ -65,13 +65,13 @@
       },
       "7634349947776666898": {
         "views": 30500,
-        "curtidas": 3217,
+        "curtidas": 3220,
         "comentarios": 70,
         "compartilhamentos": 29,
         "salvamentos": 199
       }
     },
-    "atualizado_em": "2026-11-18T17:53:24.256088+00:00"
+    "atualizado_em": "2026-11-19T18:05:14.936875+00:00"
   },
   "instagram": {
     "seguidores": 1769,
@@ -342,7 +342,14 @@
       "data": "2026-11-18",
       "tiktok": 11677,
       "instagram": 1769
+    },
+    {
+      "data": "2026-11-19",
+      "tiktok": 11683,
+      "instagram": 1769
     }
   ],
-  "erros": []
+  "erros": [
+    "instagram: An unexpected error has occurred. Please retry your request later."
+  ]
 }
